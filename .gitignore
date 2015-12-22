@@ -1,0 +1,6 @@
+.git
+.vagrant
+log
+pkg
+spec/fixtures
+vendor
