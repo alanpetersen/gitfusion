@@ -1,6 +1,6 @@
 {
   "name": "alanpetersen-gitfusion",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "alanpetersen",
   "summary": "Installs and configures Perforce GitFusion",
   "license": "Apache-2.0",
@@ -13,7 +13,7 @@
   "requirements": [
     {
       "name": "pe",
-      "version_requirement": ">= 3.0.0 < 2015.4.0"
+      "version_requirement": ">= 3.0.0 < 2017.0"
     },
     {
       "name": "puppet",
@@ -21,13 +21,6 @@
     }
   ],
   "operatingsystem_support": [
-    {
-      "operatingsystem": "Debian",
-      "operatingsystemrelease": [
-        "6",
-        "7"
-      ]
-    },
     {
       "operatingsystem": "Ubuntu",
       "operatingsystemrelease": [
@@ -39,14 +32,12 @@
       "operatingsystem": "RedHat",
       "operatingsystemrelease": [
         "6",
-        "7"
       ]
     },
     {
       "operatingsystem": "CentOS",
       "operatingsystemrelease": [
         "6",
-        "7"
       ]
     }
   ]

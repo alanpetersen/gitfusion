@@ -9,14 +9,14 @@ class gitfusion::params {
 
   # Git-Fusion installer parameters
   $gf_sys_user      = 'git'
-  $server           = 'new'
+  $gf_dir           = '/opt/perforce/git-fusion'
+  $server           = 'local'
   $server_id        = $::hostname
-  $p4root           = '/opt/perforce/instance'
-  $p4port           = 'ssl::1666'
+  $p4port           = '1666'
   $timezone         = $::olson_timezone
-  $unknownuser      = 'unknown'
-  $unicode          = true
+  $unknownuser      = 'reject'
   $https            = true
+  $debug            = false
 
   case $::osfamily {
     'redhat': {
